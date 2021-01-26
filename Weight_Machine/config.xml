@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<appSettings>
+  <PortName>fff</PortName> 
+   <BaudRate>9600</BaudRate> 
+     <Rtsp>rtsp://freja.hiof.no:1935/rtplive/definst/hessdalen02.stream</Rtsp> 
+     <Path>/Volumes/Working_WIth/chash/</Path> 
+  
+   
+</appSettings>
