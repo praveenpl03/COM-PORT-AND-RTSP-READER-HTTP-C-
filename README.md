@@ -10,11 +10,15 @@ u need to add crossorgin on image tag
 
 Using ajax 
 For RTSP Snapshot
+
+
 document.getElementById("snap").setAttribute(
         'src',"http://127.0.0.1:8001/snapshot.jpg");
         
         
  For Weight from COMPORT   
+ 
+ 
  function lockWeight(){
          jQuery.support.cors = true;
           $.ajax({url: "http://127.0.0.1:8000/", success:   function(result){
