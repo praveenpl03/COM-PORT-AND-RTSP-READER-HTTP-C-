@@ -24,18 +24,20 @@ document.getElementById("snap").setAttribute(
           $.ajax({url: "http://127.0.0.1:8000/", success:   function(result){
 
 if (parseInt(result) > 0){
-      
   $('#saver').prop("disabled",false);
-             $("#weight").html(result);
+      $("#weight").html(result);
      $("#weight_com").val(result);
 }
-              else if(parseInt(result) ==0)
-                  {
-                  $('#saver').prop("disabled",true);
+ else if(parseInt(result) ==0)
+             {
+             $('#saver').prop("disabled",true);
              $("#weight").html("0");
               }
+              
   }});
 
+
 }
+
 
 You can contact me for any assistance if needed . 8547861657 / praveen.pl03@gmail.com
